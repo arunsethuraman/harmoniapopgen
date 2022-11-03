@@ -1,0 +1,24 @@
+// Priors and rules file
+// *********************
+
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max 
+//all Ns are in number of haploid individuals
+1  N_POP0       unif     10    2e6   output	bounded	reference
+1  N_POP1       unif     10    2e6   output	bounded	reference
+1  N_POP2       unif     10    2e6   output	bounded	reference
+1  N_POP3       unif     10    2e6   output	bounded	reference
+0	RA	logunif	0.0000001	1.0	output	bounded
+1  TMIX		unif	 5    30   output       bounded reference
+1  TDIV123       unif     5    30   output	bounded	reference
+1  TDIV0_ANC123      unif     5   60   hide	bounded	reference
+0  m32		logunif	   1e-5   1   output	bounded reference
+0  m12		logunif	   1e-5	  1   output	bounded reference
+	
+[RULES]
+TMIX < TDIV123
+TDIV123 < TDIV0_ANC123
+
+[COMPLEX PARAMETERS]
+
+

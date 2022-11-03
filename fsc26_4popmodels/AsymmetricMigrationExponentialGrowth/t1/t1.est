@@ -1,0 +1,66 @@
+// Priors and rules file
+// *********************
+
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max 
+//all Ns are in number of haploid individuals
+1  N_POP0       unif     10    2e6   output	bounded	reference
+1  N_POP1       unif     10    2e6   output	bounded	reference
+1  N_POP2       unif     10    2e6   output	bounded	reference
+1  N_POP3       unif     10    2e6   output	bounded	reference
+1  TMIX		unif	 5    30   output       bounded reference
+1  TDIV123       unif     5    30   output	bounded	reference
+1  TDIV0_ANC123      unif     5   60   output	bounded	reference
+0		1m01 logunif 1e-5	1	output bounded reference	
+0		1m02 logunif 1e-5	1	output bounded reference	
+0		1m03 logunif 1e-5	1	output bounded reference	
+0		1m10 logunif 1e-5	1	output bounded reference	
+0		1m12 logunif 1e-5	1	output bounded reference	
+0		1m13 logunif 1e-5	1	output bounded reference	
+0		1m20 logunif 1e-5	1	output bounded reference	
+0		1m21 logunif 1e-5	1	output bounded reference	
+0		1m23 logunif 1e-5	1	output bounded reference	
+0		1m30 logunif 1e-5	1	output bounded reference	
+0		1m31 logunif 1e-5	1	output bounded reference	
+0		1m32 logunif 1e-5	1	output bounded reference	
+0		2m01 logunif 1e-5	1	output bounded reference	
+0		2m03 logunif 1e-5	1	output bounded reference	
+0		2m10 logunif 1e-5	1	output bounded reference	
+0		2m13 logunif 1e-5	1	output bounded reference	
+0		2m30 logunif 1e-5	1	output bounded reference	
+0		2m31 logunif 1e-5	1	output bounded reference	
+0		3m01 logunif 1e-5	1	output bounded reference	
+0		3m10 logunif 1e-5	1	output bounded reference	
+0  N0RESIZE     unif     1e-4   1     hide
+0  N1RESIZE     unif     1e-4   1     hide
+0  N2RESIZE     unif     1e-4   1     hide
+0  N3RESIZE     unif     1e-4   1     hide
+
+
+[RULES]
+TMIX < TDIV123
+TDIV123 < TDIV0_ANC123
+
+[COMPLEX PARAMETERS]
+
+1  N0atSPLIT   =  N_POP0*N0RESIZE   output
+1  N1atSPLIT   =  N_POP1*N1RESIZE   output
+1  N2atSPLIT   =  N_POP2*N2RESIZE   output
+1  N3atSPLIT   =  N_POP3*N3RESIZE   output
+
+
+0  tmpRATIOP0 = N0atSPLIT/N_POP0      hide
+0  tmplogP0   = log(tmpRATIOP0)       hide
+0  GrowthP0   = tmplogP0/TDIV0_ANC123 output
+
+0  tmpRATIOP1 = N1atSPLIT/N_POP1      hide
+0  tmplogP1   = log(tmpRATIOP1)       hide
+0  GrowthP1   = tmplogP1/TDIV123       output
+
+0  tmpRATIOP2 = N2atSPLIT/N_POP2      hide
+0  tmplogP2   = log(tmpRATIOP2)       hide
+0  GrowthP2   = tmplogP2/TMIX       output
+
+0  tmpRATIOP3 = N3atSPLIT/N_POP3      hide
+0  tmplogP3   = log(tmpRATIOP3)       hide
+0  GrowthP3   = tmplogP3/TDIV123       output

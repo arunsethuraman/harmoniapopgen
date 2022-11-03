@@ -1,0 +1,46 @@
+//Number of population samples (demes)
+4 populations to simulate
+//Population effective sizes (number of genes)
+83020
+661694
+1005350
+1148038
+//Sample sizes
+10 
+106 
+22
+104
+//Growth rates
+-1.554600980636773e-02
+-6.313709416181507e-02
+-7.498435852274217e-02
+-1.627031885478956e-01
+//Number of migration matrices
+3
+//Migration Matrix 0
+0	0	0	0	
+0	0	6.379265977085004e-05 	0 	
+0	0 	0 	0 	
+0	0	2.802235302481639e-01	0	
+//Migration Matrix 1
+0 0 0 0 
+0 0 0 0
+0 0 0 0
+0 0 0 0
+//Migration Matrix 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+//historical event: time, source, sink, migrants, new deme size, growth rate, migr mat index 
+4 historical event
+10 2 3 1 1 0 1
+10 2 1 1 1 0 1  
+17 3 1 1 1 0 1
+46 1 0 1 1 0 2
+//Number of independent loci [chromosomes]
+1 0
+//Per chromosome: Number of linkage blocks
+1
+//per block: Datatype, numm loci, rec rate and mut rate + optional parameters
+FREQ 1 0 3.5e-9 OUTEXP
