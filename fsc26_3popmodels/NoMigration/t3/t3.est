@@ -1,0 +1,22 @@
+// Priors and rules file
+// *********************
+
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max 
+//all Ns are in number of haploid individuals
+1  N_POP0       unif     10    2e6   output	bounded	reference
+1  N_POP1       unif     10    2e6   output	bounded	reference
+1  N_POP2       unif     10    2e6   output	bounded	reference
+1  N_ANCAll     unif     10    2e6   output	bounded	reference
+1  N_ANC12      unif     10    2e6   output	bounded	reference
+1  TDIV12       unif     5    30   output	bounded	reference
+1  TPLUS01      unif     5    60   hide	bounded	reference
+
+[RULES]
+
+[COMPLEX PARAMETERS]
+
+1  TDIV0_ANC12  = TDIV12+TPLUS01  output
+
+0  RELANC02 = N_ANCAll/N_ANC12    hide
+0  RELANC12 = N_ANC12/N_POP2      hide

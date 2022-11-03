@@ -1,0 +1,44 @@
+// Priors and rules file
+// *********************
+
+[PARAMETERS]
+//#isInt? #name   #dist.#min  #max 
+//all Ns are in number of haploid individuals
+1  N_ANCAll     unif     10    2e6   output	bounded	reference
+1  N_ANC02      unif     10    2e6   output	bounded	reference
+
+1  N_POP0       unif     10    2e6   output	bounded	reference
+1  N_POP1       unif     10    2e6   output	bounded	reference
+1  N_POP2       unif     10    2e6   output	bounded	reference
+
+0  N0RESIZE     unif     1e-4   1     hide
+0  N1RESIZE     unif     1e-4   1     hide
+0  N2RESIZE     unif     1e-4   1     hide
+
+1  TDIV02       unif     5    30   output	bounded	reference
+1  TPLUS02      unif     5    60   hide	bounded	reference
+
+
+[RULES]
+
+[COMPLEX PARAMETERS]
+1  TDIV1_ANC02  = TDIV02+TPLUS02  output
+
+1  N0atSPLIT   =  N_POP0*N0RESIZE   output
+1  N1atSPLIT   =  N_POP1*N1RESIZE   output
+1  N2atSPLIT   =  N_POP2*N2RESIZE   output
+
+0  RELANC12 = N_ANCAll/N_ANC02    hide
+0  RELANC02 = N_ANC02/N0atSPLIT   hide
+
+0  tmpRATIOP0 = N0atSPLIT/N_POP0      hide 
+0  tmplogP0   = log(tmpRATIOP0)       hide
+0  GrowthP0   = tmplogP0/TDIV02       output
+
+0  tmpRATIOP1 = N1atSPLIT/N_POP1      hide 
+0  tmplogP1   = log(tmpRATIOP1)       hide
+0  GrowthP1   = tmplogP1/TDIV02       output
+
+0  tmpRATIOP2 = N2atSPLIT/N_POP2      hide 
+0  tmplogP2   = log(tmpRATIOP2)       hide
+0  GrowthP2   = tmplogP2/TDIV02       output

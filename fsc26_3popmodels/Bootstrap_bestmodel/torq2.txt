@@ -1,0 +1,16 @@
+cd t1_maxL_boot; cd t1_maxL_boot_85; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_86; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_87; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_88; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_89; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_90; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_91; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_92; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_93; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_94; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_95; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_96; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_97; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_98; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_99; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv
+cd t1_maxL_boot; cd t1_maxL_boot_100; cp ../t1.est . ; cp ../t1.tpl . ; cp ../t1.pv . ; /home/tuf29140/work/fsc26_linux64/fsc26 -t t1.tpl -e t1.est -M  -n 10000 -l 40 -L 40 -q -C10 -c1 -d --initvalues t1.pv

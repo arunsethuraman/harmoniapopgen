@@ -1,0 +1,198 @@
+Log file path: C:/Users/Lab/Documents/LadyBeetles/Harmonia/harmonia_arlequin.res/Arlequin_log.txt
+Core Program Directory: C:/Users/Lab/Downloads/WinArl35/WinArl35/
+Random number generator initialized with lidum=-1370791
+Reading project profile section...
+done !
+Opening next project...
+C:/Users/Lab/Documents/LadyBeetles/Harmonia/harmonia_arlequin.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (12/06/20 at 10:27:07)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Reading Samples section ...
+	Reading ATV ... 
+	done ! (1 ms)
+
+	Reading BREM ... 
+	done ! (0 ms)
+
+	Reading FJZ ... 
+	done ! (0 ms)
+
+	Reading GMDD ... 
+	done ! (7 ms)
+
+	Reading GSLZ ... 
+	done ! (1 ms)
+
+	Reading HBYC ... 
+	done ! (0 ms)
+
+	Reading HNNY ... 
+	done ! (0 ms)
+
+	Reading JLCC ... 
+	done ! (0 ms)
+
+	Reading JXNC ... 
+	done ! (0 ms)
+
+	Reading SCLS ... 
+	done ! (0 ms)
+
+	Reading SDLS ... 
+	done ! (0 ms)
+
+	Reading SXYL ... 
+	done ! (0 ms)
+
+	Reading USAAR ... 
+	done ! (15 ms)
+
+	Reading USAIA ... 
+	done ! (0 ms)
+
+	Reading USAVA ... 
+	done ! (0 ms)
+
+	Reading XJWL ... 
+	done ! (0 ms)
+
+	Reading XZLZ ... 
+	done ! (0 ms)
+
+	Reading YNQJ ... 
+	done ! (0 ms)
+
+	Reading USAKY ... 
+	done ! (0 ms)
+
+	Reading USAIL ... 
+	done ! (0 ms)
+
+	Reading USAIN ... 
+	done ! (0 ms)
+
+	Reading USATN ... 
+	done ! (16 ms)
+
+	Reading USAKS ... 
+	done ! (0 ms)
+
+	Reading USANY ... 
+	done ! (0 ms)
+
+	Reading USAMN ... 
+	done ! (0 ms)
+
+	Reading LNSY ... 
+	done ! (0 ms)
+
+	Reading PLKK ... 
+	done ! (0 ms)
+
+	done reading Samples section! (40 ms)
+	Reading genetic structure ...
+	done reading genetic structure! (0 ms)
+done ! (40 ms)
+
+------------------------------------------------------------------------
+  Checking all selected options...
+		Building vectors of alleles...
+		done in 26 ms
+  done!
+  check selected settings...
+  done!
+
+Population 'ATV' : 
+done in 0 ms
+
+Population 'BREM' : 
+done in 0 ms
+
+Population 'FJZ' : 
+done in 0 ms
+
+Population 'GMDD' : 
+done in 0 ms
+
+Population 'GSLZ' : 
+done in 0 ms
+
+Population 'HBYC' : 
+done in 0 ms
+
+Population 'HNNY' : 
+done in 0 ms
+
+Population 'JLCC' : 
+done in 0 ms
+
+Population 'JXNC' : 
+done in 0 ms
+
+Population 'SCLS' : 
+done in 0 ms
+
+Population 'SDLS' : 
+done in 0 ms
+
+Population 'SXYL' : 
+done in 0 ms
+
+Population 'USAAR' : 
+done in 0 ms
+
+Population 'USAIA' : 
+done in 0 ms
+
+Population 'USAVA' : 
+done in 0 ms
+
+Population 'XJWL' : 
+done in 0 ms
+
+Population 'XZLZ' : 
+done in 0 ms
+
+Population 'YNQJ' : 
+done in 0 ms
+
+Population 'USAKY' : 
+done in 0 ms
+
+Population 'USAIL' : 
+done in 0 ms
+
+Population 'USAIN' : 
+done in 0 ms
+
+Population 'USATN' : 
+done in 0 ms
+
+Population 'USAKS' : 
+done in 0 ms
+
+Population 'USANY' : 
+done in 0 ms
+
+Population 'USAMN' : 
+done in 0 ms
+
+Population 'LNSY' : 
+done in 0 ms
+
+Population 'PLKK' : 
+done in 0 ms
+	Converting phenotypic to haplotypic data ...
+	done ! (7 ms)
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (12/06/20 at 10:27:13))
+Total computing time for this run : 0h 0m 6s 108 ms
+////////////////////////////////////////////////////////////////////
+
+Successful run of C:/Users/Lab/Documents/LadyBeetles/Harmonia/harmonia_arlequin.arp
